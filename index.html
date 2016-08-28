@@ -1,4 +1,761 @@
-<html>
-<nead>Coming soon</nead>
-<body>Coming soon</boy>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Patrick Cozzi</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-16048240-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+<body>
+<div class="page">
+
+<table class="sectionBody">
+  <tr>
+    <td style="width : 70%;">
+		<span class="largeFont">Patrick Cozzi</span><br />
+		<a href="http://twitter.com/pjcozzi">@pjcozzi</a>
+        <p>
+        pjcozzi@siggraph.org
+        </p>
+		<p>
+		Principal Graphics Architect<br />
+		<a href="http://www.agi.com/">Analytical Graphics, Inc.</a>
+		</p>
+		<p>
+		Lecturer<br />
+		<a href="http://www.cis.upenn.edu/">Department of Computer and Information Science</a><br />
+		<a href="http://www.upenn.edu/">University of Pennsylvania</a>
+		</p>
+		<p>
+		Short <a href="downloads/PatrickCozziCV.pdf">CV</a> (08/2016)
+		</p>
+        <p align="center">
+        <a href="http://twitter.com/pjcozzi"><img src="images/twitter.png" alt="Twitter" width="32" height="32" /></a>
+        <a href="http://www.linkedin.com/in/pjcozzi"><img src="images/linkedin.png" alt="LinkedIn" width="32" height="32" /></a>
+        <a href="https://github.com/pjcozzi"><img src="images/github.png" alt="GitHub" width="32" height="32" /></a>
+<!--
+        <a href="http://blog.virtualglobebook.com"><img src="images/blogger.png" alt="Blogger" width="32" height="32" /></a>
+        <a href="https://plus.google.com/112045027832792698908"><img src="images/googleplus.png" alt="Google Plus" width="32" height="32" /></a>
+-->
+        </p>
+    </td>
+    <td>
+		<p align="center">
+		<img class="headShot" src="images/cozzi.jpg" alt="Patrick Cozzi" width="400" /><br />
+        <span class="mediumFont">With former students, <a href="http://www.iamnop.com/">Nop Jiarathanakul</a> and  <a href="http://www.yiningkarlli.com/">Karl Li</a>.</span>
+		</p>
+    </td>
+  <tr>
+</table>
+
+<h1 class="sectionHeading">About Me</h1>
+<div class="sectionBody">
+<p align="center">
+<a href="http://cesiumjs.org/"><img src="images/Cesium.png" alt="Cesium" height="76" class="borderImage" /></a>
+<a href="https://github.com/AnalyticalGraphicsInc/3d-tiles"><img src="images/3dtiles.png" alt="3D Tiles" height="76" class="borderImage" /></a>
+<a href="#books"><img src="images/WebGLInsights.jpg" alt="WebGL Insights" height="76" class="borderImage" /></a>
+<a href="#books"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1439893764&MarketPlace=US&ID=AsinImage&WS=1&tag=virtua06a-20&ServiceVersion=20070822" alt="OpenGL Insights" height="76" class="borderImage" /></a>
+<a href="#books"><img src="images/virtualglobebook.jpg" alt="3D Engine Design for Virtual Globes" height="76" class="borderImage" /></a>
+<a href="http://www.agi.com/"><img src="images/agi.png" alt="AGI" height="76" class="borderImage" /></a>
+<a href="#teaching"><img src="images/Penn.png" alt="Teaching" height="76" class="borderImage" /></a>
+<a href="http://www.khronos.org/"><img src="images/khronos.png" alt="Khronos" height="76" class="borderImage" /></a>
+<a href="https://github.com/KhronosGroup/glTF"><img src="images/glTF_300.png" alt="glTF" height="76" class="borderImage" /></a>
+</p>
+
+<p>
+I work at the intersection of computer graphics, geospatial, and the web in software development and education.
+</p>
+<p>
+DMD and CGGT students - I am seeking students for <a href="projects.html">independent study projects in Spring 2017</a>.
+</p>
+<p>
+My contributions to the field include
+<ul>
+<li>Starting <a href="http://cesiumjs.org/">Cesium</a>, an open-source JavaScript library for world-class 3D globes and maps</li>
+<li>Writing and editing <a href="#books">books</a>: WebGL Insights, OpenGL Insights, and 3D Engine Design for Virtual Globes</li>
+<li>Co-creating <a href="https://github.com/KhronosGroup/glTF">glTF</a>, the runtime asset format for WebGL, OpenGL ES, and OpenGL</li>
+<li>Starting <a href="https://github.com/AnalyticalGraphicsInc/3d-tiles">3D Tiles</a> for streaming massive heterogeneous 3D geospatial datasets (in progress)</li>
+<li>Teaching <a href="#teaching">GPU Programming and Architecture</a>, with students that received positions at NVIDIA, AMD, Qualcomm, and various game and movie studios</li>
+<li>Giving <a href="#presentations">talks</a> at SIGGRAPH, FOSS4G, and COM.Geo, and other conferences</li>
+<li>Writing <a href="#bookchapters">chapters</a> for the GPU Pro and Game Engine Gems series</li>
+<li>Reviewing various graphics courses, books, and publications.  I'm on the editorial board for the Journal of Computer Graphics Techniques (<a href="http://jcgt.org/">JCGT</a>)</li>
+</ul>
+</p>
+<p>
+My interests include
+<ul>
+<li>Computer graphics - WebGL, OpenGL, virtual globes, massive models, 3D engine design, asset formats, real-time rendering, and GPU architecture</li>
+<li>Software development - framework design, unit testing, parallelism, JavaScript, Node.js, recruitment, and technical interviews</li>
+<li>Open source software - development practices, building community, culture, code sprints, hackathons, and business models</li>
+<li>Moving our field forward - teaching, giving talks, writing, editing, and mentoring</li>
+</ul>
+</p>
+</div>
+
+<a name="books" />
+<h1 class="sectionHeading">Books</h1>
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/WebGLInsights.jpg" width="129" />
+        </td>
+        <td class="col2of3">
+            <a href="http://www.webglinsights.com">WebGL Insights</a>.  <a href="http://www.crcpress.com/">CRC Press</a>.<br />
+            Patrick Cozzi, Editor
+        </td>
+        <td class="col3of3">
+            07/2015
+        </td>
+    </tr>
+</table>        
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <a href="http://www.amazon.com/gp/product/1439893764/ref=as_li_qf_sp_asin_il?ie=UTF8&tag=virtua06a-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1439893764"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1439893764&MarketPlace=US&ID=AsinImage&WS=1&tag=virtua06a-20&ServiceVersion=20070822" ></a><img src="http://www.assoc-amazon.com/e/ir?t=virtua06a-20&l=as2&o=1&a=1439893764" width="1" height="1" border="0" style="border:none !important; margin:0px !important;" />
+        </td>
+        <td class="col2of3">
+            <a href="http://www.openglinsights.com">OpenGL Insights</a>.  CRC Press.<br />
+            Patrick Cozzi and <a href="http://www.g-truc.net">Christophe Riccio</a>, Editors
+        </td>
+        <td class="col3of3">
+            07/2012
+        </td>
+    </tr>
+</table>        
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <a imageanchor="1" href="http://www.amazon.com/3D-Engine-Design-Virtual-Globes/dp/1568817118?ie=UTF8&tag=virtua06a-20&link_code=bil&camp=213689&creative=392969"><img alt="3D Engine Design for Virtual Globes" src="images/virtualglobebook.jpg" width="130" /></a><img src="http://www.assoc-amazon.com/e/ir?t=virtua06a-20&l=bil&camp=213689&creative=392969&o=1&a=1568817118" width="1" height="1" border="0" style="border:none !important; margin:0px !important; padding: 0px !important" />            
+        </td>
+        <td class="col2of3">
+            <a href="http://www.virtualglobebook.com">3D Engine Design for Virtual Globes</a>.  A K Peters/CRC Press.<br />
+            Patrick Cozzi and <a href="http://www.kotachrome.com/kevin/">Kevin Ring</a>
+        </td>
+        <td class="col3of3">
+            06/2011
+        </td>
+    </tr>
+</table>
+
+<a name="teaching" />
+<h1 class="sectionHeading">Teaching</h1>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <img src="images/Penn.png" width="130" height="135" /><br />
+            </div>
+        </td>
+        <td class="col2of2">
+            Fall 2015:  <a href="http://cis565-fall-2015.github.io/">CIS 565:  GPU Programming and Architecture</a>
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <a href="https://github.com/kainino0x/cis565final">
+                <img src="images/CIS565Fall2014.png" width="130" height="135" /><br />
+                <span class="smallFont">WebCL Dynamic Fractures</span><br />
+                <span class="mediumFont">Kai Ninomiya and Jiatong He</span>
+                </a>                
+            </div>
+        </td>
+        <td class="col2of2">
+            Fall 2014:  <a href="http://cis565-fall-2014.github.io/">CIS 565:  GPU Programming and Architecture</a>
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <a href="https://docs.google.com/presentation/d/1JbPvI1NS7ExcDAGiAbU6cjhfUQzfhptHNNa48eK97oo/edit#slide=id.p">
+                <img src="images/CIS700Spring2014.png" width="130" /><br />
+                <span class="smallFont">WebGL Particle Fluid Sim</span><br />
+                <span class="mediumFont">Alex Miller and Noah Lyons</span>
+                </a>
+            </div>
+        </td>
+        <td class="col2of2">
+            Spring 2014:  <a href="http://cis700-003-spring-2014.github.io/">CIS 700/003: Real-Time Rendering</a>
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <a href="https://github.com/ishaan13/PhotonMapper">
+                <img src="images/CIS565Fall2013.png" width="130" height="135" /><br />
+                <span class="smallFont">GPU Photon Mapper</span><br />
+                <span class="mediumFont">Ishaan Singh, Yingting Xiao, Xiaoyan Zhu</span>
+                </a>				
+            </div>
+        </td>
+        <td class="col2of2">
+            Fall 2013:  <a href="http://cis565-fall-2013.github.io/">CIS 565:  GPU Programming and Architecture</a>
+        </td>
+    </tr>
+</table>		
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <a href="http://gputerrain.blogspot.com/">
+                <img src="images/CIS565Fall2012.png" width="130" height="135" /><br />
+                <span class="smallFont">Procedural Terrain</span><br />
+                <span class="mediumFont">Tiju Thomas</span>
+                </a>
+            </div>
+        </td>
+        <td class="col2of2">
+            Fall 2012:  <a href="http://cis565-fall-2012.github.com/">CIS 565:  GPU Programming and Architecture</a>
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <a href="http://nopjia.blogspot.com/">
+                <img src="images/CIS565Spring2012.png" width="130" height="135" /><br />
+                <span class="smallFont">Ray Marching Distance Fields</span><br />
+                <span class="mediumFont">Nop Jiarathanakul</span>
+                </a>            
+            </div>
+        </td>
+        <td class="col2of2">
+            Spring 2012:  <a href="http://cis565-spring-2012.github.com/">CIS 565:  GPU Programming and Architecture</a>
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <a href="http://fastfluids.blogspot.com/">
+                <img src="images/CIS565Spring2011.png" width="130" height="118" /><br />
+                <span class="smallFont">Screen Space Fluid Rendering</span><br />
+                <span class="mediumFont">Leftheris Kaleas</span>
+                </a>            
+            </div>
+        </td>
+        <td class="col2of2">
+            Spring 2011:  <a href="http://www.seas.upenn.edu/~cis565/index-2011S.htm">CIS 565:  GPU Programming and Architecture</a>
+        </td>
+    </tr>
+</table>
+
+<a name="advising" />
+<h1 class="sectionHeading">Advising</h1>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <img src="images/WebGL_170px_Nov14.png" width="130" /><br />
+            </div>
+        </td>
+        <td class="col2of2">
+            Spring 2016:  <a href="https://github.com/WebGLSamples/WebGL2Samples">WebGL 2 Samples Pack</a> by <a href="https://shrekshao.github.io/">Shuai Shao (Shrek)</a> and <a href="http://www.trungtuanle.com/">Trung Le</a>.
+        </td>
+    </tr>
+</table>
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <img src="images/glTF_300.png" width="130" /><br />
+            </div>
+        </td>
+        <td class="col2of2">
+            Spring 2016:  <a href="https://github.com/AnalyticalGraphicsInc/gltf-pipeline">glTF Pipeline</a> by <a href="http://leerichard.net/">Richard Lee</a>.
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <img src="images/ibl.png" width="130" height="135" /><br />
+            </div>
+        </td>
+        <td class="col2of2">
+            Spring 2015:  <a href="https://chengtsolin.wordpress.com/">Image-Based Lighting</a> by <a href="https://otaku690.appspot.com/">Cheng-Tso Lin</a>.
+        </td>
+    </tr>
+</table>
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <img src="images/octreeslam.png" width="130" height="135" /><br />
+            </div>
+        </td>
+        <td class="col2of2">
+            Spring 2015:  <a href="http://octreeslam.blogspot.com/">Voxel Map Construction and Rendering</a> by <a href="http://davidkotfis.wix.com/aboutme">Dave Kotfis</a>.
+        </td>
+    </tr>
+</table>
+<table class="sectionBody">
+    <tr>
+        <td class="col1of2">
+            <div align="center">
+                <img src="images/VoxelConeTracing.png" width="130" height="135" /><br />
+            </div>
+        </td>
+        <td class="col2of2">
+            Fall 2012:  <a href="http://realtimevoxels.blogspot.com/">Real-Time Voxels</a> by <a href="http://lilleyse.carbonmade.com/">Sean Lilley</a>, <a href="http://ianlilley.wordpress.com/">Ian Lilley</a>, and <a href="http://iamnop.com/">Nop Jiarathanakul</a>.
+        </td>
+    </tr>
+</table>
+
+<a name="bookchapters" />
+<h1 class="sectionHeading">Book Chapters</h1>
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/GPUPro7.jpg" width="129" />
+        </td>
+        <td class="col2of3">
+            <a href="http://gpupro.blogspot.com/">GPU Pro 7</a>.  CRC Press.<br />
+            <a href="http://davidkotfis.wix.com/aboutme">Wolfgang Engel</a>, Editor<br /><br />
+            <em>Octree Mapping from a Depth Camera</em> <br />
+            Dave Kotfis and Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            Expected 03/2016
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/GPUPro5.jpg" width="129" />
+        </td>
+        <td class="col2of3">
+            <a href="http://gpupro.blogspot.com/">GPU Pro 5</a>.  CRC Press.<br />
+            Wolfgang Engel, Editor<br /><br />
+            <em>glTF: Designing an Open-Standard Runtime Asset Format</em> <br />
+            <a href="http://www.linkedin.com/pub/fabrice-robinet/0/178/783">Fabrice Robinet</a>, <a href="https://twitter.com/remi_arnaud">Remi Arnaud</a>, <a href="http://tonyparisi.wordpress.com/">Tony Parisi</a>, and Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            05/2014
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/GPUPro4.jpg" width="129" />
+        </td>
+        <td class="col2of3">
+            <a href="http://gpupro.blogspot.com/">GPU Pro 4</a>.  CRC Press.<br />
+            Wolfgang Engel, Editor<br /><br />
+            <em>A WebGL Globe Rendering Pipeline</em> <br />
+            Patrick Cozzi and Daniel Bagnell
+        </td>
+        <td class="col3of3">
+            04/2013
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <a href="http://www.amazon.com/gp/product/1439893764/ref=as_li_qf_sp_asin_il?ie=UTF8&tag=virtua06a-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1439893764"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1439893764&MarketPlace=US&ID=AsinImage&WS=1&tag=virtua06a-20&ServiceVersion=20070822" ></a><img src="http://www.assoc-amazon.com/e/ir?t=virtua06a-20&l=as2&o=1&a=1439893764" width="1" height="1" border="0" style="border:none !important; margin:0px !important;" />
+        </td>
+        <td class="col2of3">
+            <a href="http://www.openglinsights.com">OpenGL Insights</a>.  CRC Press.<br />
+            Patrick Cozzi and <a href="http://www.g-truc.net">Christophe Riccio</a>, Editors<br /><br />
+            <em>WebGL for OpenGL Developers</em> <br />
+            Patrick Cozzi and Scott Hunter
+        </td>
+        <td class="col3of3">
+            07/2012
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/geg2.png" width="129" />
+        </td>
+        <td class="col2of3">
+            <a href="http://www.gameenginegems.net/">Game Engine Gems 2</a>.  A K Peters/CRC Press.<br />
+            <a href="http://www.terathon.com/lengyel/">Eric Lengyel</a>, Series Editor<br /><br />
+            <em>Delaying OpenGL Calls</em> <br />
+            Patrick Cozzi<br /><br />
+            
+            <em>A Framework for GLSL Engine Uniforms</em> <br />
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            02/2011
+        </td>
+    </tr>
+</table>
+
+<a name="publications" />
+<h1 class="sectionHeading">Selected Publications</h1>
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/PolylinesOnTerrain.png" alt="A Screen-Space Approach to Rendering Polylines on Terrain" width="130" height="99" />
+        </td>
+        <td class="col2of3">
+            <a href="http://blogs.agi.com/agi/?p=2456">A Screen-Space Approach to Rendering Polylines on Terrain</a>.  <a href="http://www.siggraph.org/s2011/for_attendees/posters">SIGGRAPH 2011 Poster Session</a>.<br />  
+            Deron Ohlarik and Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            08/2011
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/GPURayCastingOfVirtualGlobes.png" alt="GPU Ray Casting of Virtual Globes" width="130" height="98" />
+        </td>
+        <td class="col2of3">
+            <a href="http://www.agi.com/gpuraycastingofvirtualglobes">GPU Ray Casting of Virtual Globes</a>.  <a href="http://www.siggraph.org/s2010/for_attendees/posters/complete_list_posters">SIGGRAPH 2010 Poster Session</a>.<br />  
+            Patrick Cozzi and Frank Stoner
+        </td>
+        <td class="col3of3">
+            07/2010
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/HLOD.png" alt="Visibility Driven Out-of-Core HLOD Rendering" width="130" height="119" />
+        </td>
+        <td class="col2of3">
+            <a href="http://blogs.agi.com/insight3d/index.php/2009/02/19/out-of-core-rendering/">Visibility Driven Out-of-Core HLOD Rendering</a>.  Masters Thesis.<br />  
+            Patrick Cozzi, Thesis Advisor: <a href="http://www.cis.upenn.edu/~badler/">Dr. Norman Badler</a>
+        </td>
+        <td class="col3of3">
+            12/2008
+        </td>
+    </tr>
+</table>
+
+<a name="presentations" />
+<h1 class="sectionHeading">Selected Talks and Short Courses</h1>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/SIGGRAPH2016.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="https://github.com/pjcozzi/Articles/blob/master/SIGGRAPH/2016/WebGLEducatorsPanel.ppt?raw=true">Teaching Computer Graphics Inside a Browser: WebGL and Three.js</a>.  <a href="http://s2016.siggraph.org/">SIGGRAPH Educators Panel</a>
+            <a href="https://www.cs.unm.edu/~angel/">Ed Angel</a>, <a href="https://www.linkedin.com/in/daveshreiner">Dave Shreiner</a>, <a href="https://twitter.com/pointinpolygon">Eric Haines</a>, and Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            07/2016
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/Web3D2016.jpg" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/Web3D-2016-3DTilesTutorial.pptx">The Open Cesium 3D Tiles Specification: Bringing Massive Geospatial 3D Scenes to the Web</a>.  <a href="http://web3d2016.web3d.org/">Web3D</a>
+            Patrick Cozzi and <a href="http://cesiumjs.org/team/SeanLilley/">Sean Lilley</a>
+        </td>
+        <td class="col3of3">
+            07/2016
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/foss4gna2016.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/FOSS4GNA2016/3DTiles.pdf">3D Tiles: Beyond 2D Tiling, 05/2016, FOSS4G NA, Sean Lilley and Patrick Cozzi</a>.  <a href="https://2016.foss4g-na.org/">FOSS4G NA</a>
+            Sean Lilley and Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            05/2016
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/foss4gna2016.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/FOSS4GNA2016/Growing-an-Open-Source-Community-Lessons-Learned-from-Cesium.pdf">Growing an Open-Source Community: Lessons Learned from Cesium</a>.  FOSS4G NA
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            05/2016
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/3dtiles.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/3D-Tiles-OGC-DC.pdf">3D Tiles: streaming massive heterogeneous 3D geospatial datasets</a>.  <a href="http://www.opengeospatial.org/event/1603tc">OGC TC Meeting Closing Plenary</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            03/2016
+        </td>
+    </tr>
+</table>
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/Penn.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/OpenSourceSoftware.pdf">Getting Started with Open-Source Software Development</a>.  <a href="http://dp.seas.upenn.edu/">University of Pennsylvania Dining Philosophers</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            11/2015
+        </td>
+    </tr>
+</table>  
+
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/GraphicalWeb.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/The-state-of-WebGL-and-glTF.pdf">The State of WebGL and glTF</a>.  <a href="https://www.graphicalweb.org/2015/">The Graphical Web</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            09/2015
+        </td>
+    </tr>
+</table>  
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/SIGGRAPH2015.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="https://github.com/pjcozzi/Articles/raw/master/SIGGRAPH/2015/Preparing-Students-for-Industry-Using-Open-Source-and-GitHub.pdf">Preparing Students for Industry Using Open Source and GitHub</a>.  In the Educators Sessions.  <a href="http://s2015.siggraph.org/attendees/birds-feather/sessions/preparing-students-industry-using-open-source-and-github">SIGGRAPH</a>
+            <a href="http://harmonymli.com/">Harmony Li</a> and Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            08/2015
+        </td>
+    </tr>
+</table>        
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/FOSS4G2014.jpg" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/WhatsNewInCesium.pdf">What's new in Cesium: the open-source alternative for 3D maps</a>.  <a href="https://2014.foss4g.org/">FOSS4G</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            09/2014
+        </td>
+    </tr>
+</table>
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/SIGGRAPH2014.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="https://github.com/pjcozzi/Articles/blob/master/SIGGRAPH/2014/Teaching-Intro-and-Advanced-Graphics-with-WebGL-Small.pptx?raw=truef">Teaching Intro and Advanced Graphics with WebGL</a>.  In the Educators BOF.  <a href="http://s2014.siggraph.org/attendees/birds-feather/sessions/teaching-intro-and-advanced-graphics-webgl">SIGGRAPH</a>
+            Patrick Cozzi and Ed Angel
+        </td>
+        <td class="col3of3">
+            08/2014
+        </td>
+    </tr>
+</table>        
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/Cesium.png" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesiumjs.org/presentations/CesiumCzmlGltf.pdf">Cesium, CZML, and glTF</a>.  In the Geospatial information on the Web workshop.  <a href="http://web3d2014.web3d.org/workshops/">Web3D</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            08/2014
+        </td>
+    </tr>
+</table>        
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/UsingMultipleFrustums.png" alt="Using Multiple Frustums for Massive Worlds" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesium.agi.com/massiveworlds/index.html#UsingMultipleFrustumsforMassiveWorlds">Using Multiple Frustums for Massive Worlds</a>.  In <a href="http://cesium.agi.com/massiveworlds/">Rendering Massive Virtual Worlds</a> Course.  <a href="http://s2013.siggraph.org/">SIGGRAPH</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            07/2013
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/foss4gna2013.png" alt="Cesium: 3D Maps on the Web" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://cesium.agi.com/presentations/Cesium3DMapsOnTheWeb.pdf">Cesium: 3D Maps on the Web</a>.  <a href="http://foss4g-na.org/">FOSS4G NA</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            05/2013
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/Cesium.png" alt="Cesium: Geo-Scale Data Visualization in a Web Browser" width="130" />
+        </td>
+        <td class="col2of3">
+            <a href="https://github.com/AnalyticalGraphicsInc/cesium/wiki/presentations/CesiumGeoScaleDataVisualization.pdf">Cesium: Geo-Scale Data Visualization in a Web Browser</a>.  <a href="http://www.ll.mit.edu/">MIT Lincoln Labs</a>
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            10/2012
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/SIGGRAPH2012.jpg" alt="Cesium: WebGL for Globes and Maps" width="130" />
+        </td>
+        <td class="col2of3">
+            Cesium: WebGL for Globes and Maps.  <a href="http://www.khronos.org/webgl/wiki/Presentations#SIGGRAPH_2012_WebGL_BOF">SIGGRAPH WebGL BOF</a>
+			[<a href="https://github.com/AnalyticalGraphicsInc/cesium/wiki/presentations/CesiumWebGLForGlobesAndMaps.pdf">slides</a> &bull; <a href="http://www.youtube.com/watch?v=l40d2yEG-VU">video</a>]<br />  
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            08/2012
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/Cesium.png" alt="WebGL for Dynamic Virtual Globes" width="130" />
+        </td>
+        <td class="col2of3">
+            WebGL for Dynamic Virtual Globes.  <a href="http://www.webglcamp.com/wiki/index.php?title=AgendaOrlando1">WebGL Camp Orlando</a>
+			[<a href="http://www.seas.upenn.edu/~pcozzi/downloads/WebGLForDynamicVirtualGlobes.pdf">slides</a> &bull; <a href="http://www.youtube.com/watch?v=Bxk-bkiLbEo">video</a>]<br />  
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            03/2012
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/UnderTheHood.png" alt="Under the Hood of Virtual Globes" width="130" height="98" />
+        </td>
+        <td class="col2of3">
+            <a href="http://www.virtualglobebook.com/Under_the_Hood_of_Virtual_Globes.pdf">Under the Hood of Virtual Globes</a>.  <a href="http://www.com-geo.org/">COM.Geo</a> Courses.<br />  
+            Patrick Cozzi and Kevin Ring
+        </td>
+        <td class="col3of3">
+            05/2011
+        </td>
+    </tr>
+</table>		
+<table class="sectionBody">
+    <tr>
+        <td class="col1of3">
+            <img src="images/MassiveModel.png" alt="Introduction to Massive Model Rendering" width="130" height="130" />
+        </td>
+        <td class="col2of3">
+            <a href="http://csc.villanova.edu/colloquia/view/660">Introduction to Massive Model Rendering</a>.  Villanova University Computer Science Colloquium.<br />  
+            Patrick Cozzi
+        </td>
+        <td class="col3of3">
+            03/2009
+        </td>
+    </tr>
+</table>
+<h1 class="sectionHeading">Selected Blog Posts</h1>
+<div class="sectionBody">
+<p>
+<a href="https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Documentation/Contributors/PresentersGuide">Cesium Presenter's Guide</a> &bullet; Graphics Tech in Cesium:
+<a href="http://cesiumjs.org/2015/05/14/Graphics-Tech-in-Cesium/">Rendering a Frame</a>,
+<a href="http://cesiumjs.org/2015/05/15/Graphics-Tech-in-Cesium-Architecture/">Renderer Architecture</a>, and
+<a href="http://cesiumjs.org/2015/05/26/Graphics-Tech-in-Cesium-Stack/">The Graphics Stack</a> &bullet;
+<a href="https://github.com/pjcozzi/Articles/blob/master/CIS565/GitHubRepo/README.md">How to make an attractive GitHub repo</a> &bullet; 
+<a href="https://hacks.mozilla.org/2014/01/webgl-deferred-shading/">WebGL Deferred Shading</a> &bullet;
+<a href="http://cesiumjs.org/2013/12/23/Building-A-WebGL-Santa-with-Cesium-and-glTF/">Building a WebGL Santa with Cesium and glTF</a> &bullet;
+<a href="http://www.realtimerendering.com/blog/webgl-debugging-and-profiling-tools/">WebGL Debugging and Profiling Tools</a> &bullet;
+<a href="http://cesiumjs.org/2013/10/08/GitHub-Pull-Request-Workflows/">GitHub Pull Request Workflows</a> &bullet;
+Reflections on Teaching GPU Programming and Architecture: <a href="http://blog.virtualglobebook.com/2011/05/reflections-on-teaching-gpu-programming.html">Part I</a>, <a href="http://blog.virtualglobebook.com/2012/07/reflections-on-teaching-gpu-programming.html">Part II</a>, and <a href="http://blog.virtualglobebook.com/2013/04/reflections-on-teaching-gpu-programming.html">Part III</a> &bullet;
+<a href="http://cesiumjs.org/2012/11/30/NORAD-Tracks-Santa-Tech-Preview/">NORAD Tracks Santa Tech Preview</a>
+&bullet; <a href="http://cesiumjs.org/2012/11/14/Open-Source-Development-Practices/">Open Source Development Practices</a> &bullet;
+<a href="http://blog.virtualglobebook.com/2013/04/how-developers-can-get-into-teaching.html">How developers can get into teaching</a> &bullet;
+<a href="http://blog.virtualglobebook.com/2011/06/resume-tips-for-computer-science.html">Resume Tips for Computer Science Students</a> &bullet; 
+<a href="http://blogs.agi.com/insight3d/index.php/2008/08/29/rendering-text-fast/">Rendering Text Fast</a> &bullet; 
+<a href="http://blogs.agi.com/insight3d/index.php/2008/03/05/picking-using-the-depth-buffer/">Picking using the Depth Buffer</a> &bullet; 
+<a href="http://blogs.agi.com/insight3d/index.php/2008/02/13/deletion-in-bounding-volume-hierarchies/">Deletion in Bounding Volume Hierarchies</a>
+</p>
+</div>
+
+&nbsp;
+<div class="sectionBody">
+<p align="center">
+<a href="http://cg.cis.upenn.edu/index.html">Computer Graphics @ Penn</a>
+</p>
+</div>
+
+</div>
+</body>
 </html>

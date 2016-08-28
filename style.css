@@ -1,0 +1,94 @@
+body { 
+    font-family: "Helvetica";
+    background-position: center;
+}
+
+div.page {
+    max-width: 900px;
+	padding: 5px;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+a img {
+    border : none;
+}
+
+.smallFont { 
+    font-size:50%;
+}
+
+.mediumFont { 
+    font-size:90%;
+}
+
+.largeFont {
+    font-size:350%;
+}
+
+img.borderImage {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img.headShot {
+    border-radius: 15px;
+	margin: 5px;
+}
+
+img.representative {
+    margin: 5px;
+}
+
+h1.sectionHeading {
+    background-color: rgb(200, 200, 200);
+	text-indent: 3px;
+    border-radius: 8px;
+	margin: 5px 0 5px 0;
+	width: 100%;
+}
+
+.sectionBody {
+    background-color: rgb(230, 230, 230);
+	border: 1px transparent;
+    border-radius: 8px;
+	padding: 5px;
+}
+
+table.sectionBody {
+    background-color: rgb(230, 230, 230);
+	border: 1px transparent;
+    border-radius: 8px;
+	margin: 5px 0 5px 0;
+	width: 100%;
+}
+
+td.col1of2 {
+    width : 20%;
+    padding-left: 5px;
+    padding-right: 5px;	
+}
+
+td.col2of2 {
+    width : 80%;
+    padding-left: 5px;
+    padding-right: 5px;	
+}
+
+td.col1of3 {
+    width : 20%;
+    padding-left: 5px;
+    padding-right: 5px;	
+}
+
+td.col2of3 {
+    width : 70%;
+    padding-left: 5px;
+    padding-right: 5px;	
+}
+
+td.col3of3 {
+    width : 10%;
+    padding-left: 5px;
+    padding-right: 5px;	
+}
