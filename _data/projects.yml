@@ -1,0 +1,40 @@
+- title: 'Independent Study Projects'
+  content: '<p align="center">
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/glTF_300.png" height="76" class="borderImage">
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/WebGL_170px_Nov14.png" height="76" class="borderImage">
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/khronos.png" height="76" class="borderImage">
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/Cesium.png" height="76" class="borderImage">
+      </p>
+      <p>DMD and CGGT students:</p>
+      <p>I am seeking students interested in collaborating on an independent study in open-source software development in Spring 2017. The goal is to create useful libraries, applications, or teaching material to make impact in the graphics industry.</p>
+      <p>Topics of interest are:</p>
+      <ul>
+        <li><a href="https://github.com/KhronosGroup/glTF">glTF</a> - the runtime asset format for WebGL. Projects may include importers and exporters for modeling tools, optimization pipelines, extensions, and reference implementations for loaders and renderers.</li>
+        <li><a href="https://www.khronos.org/webgl/">WebGL</a> - JavaScript API for hardware-accelerated graphics on the web. Projects may include compression libraries, debugging and profiling tools, and tutorials and samples.</li>
+        <li><a href="http://cesiumjs.org/">Cesium</a> - an open-source JavaScript library for 3D globes. Projects may include streaming massive 3D models, rendering algorithms and optimizations, and visualization demos.</li>
+      </ul>
+      <p>In addition to learning deeply about the selected topic, you will also learn software development best practices and open-source culture. Your work is likely to get significant industry attention and make you very attractive as a job candidate.</p>
+      <p>See below for projects from previous semesters.</p>
+      <p>Please email me to learn more. I can only advise a limited number of students per semester.</p>'
+
+- title: 'Past Projects'
+  content: '<h4 id="webgl">WebGL</h4>
+      <p><img src="http://www.seas.upenn.edu/~pcozzi/images/WebGL_170px_Nov14.png" alt="" /></p>
+      <p>Spring 2016: <a href="https://github.com/WebGLSamples/WebGL2Samples">WebGL 2 Samples Pack</a> by <a href="https://shrekshao.github.io/">Shuai Shao (Shrek)</a> and <a href="http://www.trungtuanle.com/">Trung Le</a>.</p>
+      <p>Shrek and Trung were invited by Khronos to present this project at the WebGL + glTF BOF at GDC. They were then invited to present at the WebGL Meetup in NYC.</p>
+      <p>
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/projects/gdc.png" alt="" width="49%" class="borderImage"/>
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/projects/nyc.png" alt="" width="49%" class="borderImage"/>
+      </p>
+      <p>Trung spent the following summer at Epic Games working on tools for Unreal. Shrek spent the summer at BioDigital and contributed to the SceneJS WebGL engine.</p>
+      <h4 id="gltf">glTF</h4>
+      <p><img src="http://www.seas.upenn.edu/~pcozzi/images/glTF_300.png" alt="" /></p>
+      <p>Spring 2016: <a href="https://github.com/AnalyticalGraphicsInc/gltf-pipeline">glTF Pipeline</a> by <a href="http://leerichard.net/">Richard Lee</a>.</p>
+      <p>This project is now being adopted by industry, including significant contributions from the Cesium team such as prebaking Ambient Occlusion and mesh compression.</p>
+      <p>Richard spent the following summer at <a href="https://www.oculus.com/">Oculus</a>.</p>
+      <h3 id="code-sprints">Code Sprints</h3>
+      <p>As part of the independent study projects, we organize one-day code sprints that bring together independent study students, CIS 565 students and TAs, and developers from industry to plan, code, eat, and play original 8-bit NES games.</p>
+      <p>
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/projects/codesprint1.png" alt="" width="49%" class="borderImage" />
+        <img src="http://www.seas.upenn.edu/~pcozzi/images/projects/codesprint2.png" alt="" width="49%" class="borderImage" />
+      </p>'

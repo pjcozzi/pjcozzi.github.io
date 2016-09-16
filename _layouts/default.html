@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patrick Cozzi</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
+  <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/fonts/fontawesome-webfont.svg">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<div class="container">
+  <div class="col-md-2 col-lg-2 side-bar">
+    <div class="page-header" style="border-bottom:none;">
+      <h1 class="title">
+        <span class="patrick">Patrick</span><br> 
+        <span class="cozzi">Cozzi</span>
+      </h1>
+      <div class="social-icon">
+        <a href="https://github.com/pjcozzi" title="pjcozzi">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="http://twitter.com/pjcozzi" title="pjcozzi">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/pjcozzi" title="pjcozzi">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="side-menu" id="sidemenu">
+      <ul class="side-menu-ul">
+        <li>
+          <a href="#about" title="about">About me</a>
+        </li>
+        <li>
+          <a href="#books" title="books">Books</a>
+        </li>
+        <li>
+          <a href="#advising" title="advising">Advising</a>
+        </li>
+        <li>
+          <a href="#projects" title="projects">Projets</a>
+        </li>
+        <li>
+          <a href="#teaching" title="teaching">Teaching</a>
+        </li>
+        <li>
+          <a href="#selected" title="selected">Selected</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-10 col-xs-12 col-sm-12 main-content">
+    {{ content }}
+  </div>
+</div>
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.visualNav.min.js"></script>
+<script>
+  $(function () {
+    $('#sidemenu').visualNav({
+        link: 'a',
+        targetAttr: 'href',
+        selectedAppliedTo: 'li',
+        contentClass: 'content',
+        contentLinks: 'visualNav',
+        externalLinks: 'external',
+        useHash: true,
+        inViewClass: 'inView',
+        selectedClass: 'selected',
+        currentContent: 'current',
+        bottomMargin: 100,
+        fitContent: false,
+        offsetTop: 45,
+        scrollOnInit: false,
+        animationTime: 1200,
+        stopOnInteraction: true,
+        easing: ['swing', 'swing'],
+        initialized: function (visNav, $selected) {},
+        beforeAnimation: function (visNav, $selected) {},
+        complete: function (visNav, $selected) {},
+        changed: function (visNav, $selected) {}
+    });
+  });
+</script>
+</body>
+</html>

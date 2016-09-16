@@ -461,8 +461,22 @@ pre {
   .highlight .il {
     color: #099; }
 
+@media (max-width: 992px) {
+  .side-bar {
+    display: none; }
+
+  .img-rounded {
+    width: 50%;
+    margin-bottom: 10%; }
+
+  .banner {
+    min-height: 300px; }
+    .banner p {
+      display: none; } }
+@media (min-width: 992px) {
+  .banner {
+    min-height: 500px; } }
 .banner {
-  min-height: 500px;
   position: relative;
   overflow: hidden;
   background: #000; }
@@ -511,16 +525,17 @@ pre {
   -ms-filter: brightness(70%); }
 
 .patrick {
-  letter-spacing: 6px; }
+  letter-spacing: 0.2em; }
 
 .row {
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .cozzi {
-  letter-spacing: 14px; }
+  letter-spacing: 0.4em; }
 
 .social-icon {
-  font-size: 30px; }
+  font-size: 2em; }
   .social-icon a {
     padding: 10px;
     text-decoration: none;
