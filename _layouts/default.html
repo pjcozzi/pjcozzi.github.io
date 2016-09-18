@@ -42,13 +42,13 @@
           <a href="#advising" title="advising">Advising</a>
         </li>
         <li>
-          <a href="#projects" title="projects">Projets</a>
-        </li>
-        <li>
           <a href="#teaching" title="teaching">Teaching</a>
         </li>
         <li>
           <a href="#selected" title="selected">Selected</a>
+        </li>
+        <li>
+          <a href="projects.html" title="projects" id="projects">Projects</a>
         </li>
       </ul>
     </div>
@@ -79,6 +79,9 @@
         animationTime: 1200,
         stopOnInteraction: true,
         easing: ['swing', 'swing']
+    });
+    $("#projects").click(function(event) {
+      window.location = '/projects.html';
     });
   });
 </script>
