@@ -30,7 +30,7 @@ layout: default
       <p>
         {% for d in site.data.aboutme-img %}
           <a href="{{ d.href }}">
-            <img src="{{ d.src }}" alt="{{ d.alt }}" width="10%" class="borderImage">
+            <img src="{{ site.url }}/{{ d.src }}" alt="{{ d.alt }}" width="10%" class="borderImage">
           </a>
         {% endfor %}
       </p>
