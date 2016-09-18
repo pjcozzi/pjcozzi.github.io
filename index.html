@@ -21,7 +21,7 @@ layout: default
   <p>Short <a href="http://www.seas.upenn.edu/~pcozzi/downloads/PatrickCozziCV.pdf">CV</a> (08/2016)</p>
   <p class="links">With former students, <a href="http://www.iamnop.com/" title="">Nop Jiarathanakul</a> and <a href="http://www.yiningkarlli.com/" title="">Karl Li</a>.</p>
 </div>
-<div class="about" id="about">
+<div class="content" id="about">
   <div class="page-header">
     <h1>About me</h1>
   </div>
@@ -30,7 +30,7 @@ layout: default
       <p>
         {% for d in site.data.aboutme-img %}
           <a href="{{ d.href }}">
-            <img src="{{ site.url }}/{{ d.src }}" alt="{{ d.alt }}" width="10%" class="borderImage">
+            <img src="{{ d.src }}" alt="{{ d.alt }}" width="10%" class="borderImage">
           </a>
         {% endfor %}
       </p>
@@ -57,7 +57,7 @@ layout: default
     </div>
   </article>
 </div>
-<div class="books" id="books">
+<div class="content" id="books">
   <div class="page-header">
     <h1>Books</h1>
   </div>
@@ -70,7 +70,7 @@ layout: default
       {% endif %}
           <div class="col-md-6 col-xs-12 col-sm12 col-lg-6">
             <div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-              <img src="{{ site.url }}/{{ d.src }}" alt="{{ d.alt }}" class="img-rounded">
+              <img src="{{ d.src }}" alt="{{ d.alt }}" class="img-rounded">
             </div>
             <div class="col-md-9 col-xs-12 col-sm-12 col-lg-9">
               <h4 class="media-heading">{{ d.media-heading }}</h4>
@@ -78,7 +78,7 @@ layout: default
               <p class="time-content">{{ d.time-content }}</p>
             </div>
           </div>
-      {% if loopindex == 0 %}
+      {% if loopindex == 0 or forloop.last %}
         </div>
       {% endif %}
     {% endfor %}
@@ -93,7 +93,7 @@ layout: default
       {% endif %}
           <div class="col-md-6 col-xs-12 col-sm-12 col-lg-6">
             <div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-              <img src="{{ site.url }}/{{ d.src }}" alt="{{ d.alt }}" class="img-rounded">
+              <img src="{{ d.src }}" alt="{{ d.alt }}" class="img-rounded">
             </div>
             <div class="col-md-9 col-xs-12 col-sm-12 col-lg-9">
               <h4 class="media-heading">{{ d.media-heading }}</h4>
@@ -101,13 +101,13 @@ layout: default
               <p class="time-content">{{ d.time-content }}</p>
             </div>
           </div>
-      {% if loopindex == 0 %}
+      {% if loopindex == 0 or forloop.last %}
         </div>
       {% endif %}
     {% endfor %}
   </div>
 </div>
-<div class="advising" id="advising">
+<div class="content" id="advising">
   <div class="page-header">
     <h1>Advising</h1>
   </div>
@@ -119,19 +119,19 @@ layout: default
       {% endif %}
           <div class="col-md-6 col-xs-12 col-sm-12 col-lg-6">
             <div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-              <img src="{{ site.url }}/{{ d.src }}" alt="{{ d.alt }}" class="img-rounded">
+              <img src="{{ d.src }}" alt="{{ d.alt }}" class="img-rounded">
             </div>
             <div class="col-md-9 col-xs-12 col-sm-12 col-lg-9">
               {{ d.desc }}
             </div>
           </div>
-      {% if loopindex == 0 %}
+      {% if loopindex == 0 or forloop.last %}
         </div>
       {% endif %}
     {% endfor %}
   </div>
 </div>
-<div class="projects" id="projects">
+<div class="content" id="projects">
   <div class="page-header">
     <h1>Projects</h1>
   </div>
@@ -144,7 +144,7 @@ layout: default
     </div>
   </article>
 </div>
-<div class="teaching" id="teaching">
+<div class="content" id="teaching">
   <div class="page-header">
     <h1>Teaching</h1>
   </div>
@@ -158,7 +158,7 @@ layout: default
           <div class="col-md-6 col-xs-12 col-sm-12 col-lg-6">
             <div class="col-md-3 col-xs-12 col-sm12 col-lg-3">
               <a href="{{ d.href }}" title="">
-                <img src="{{ site.url }}/{{ d.src }}" class="img-rounded">
+                <img src="{{ d.src }}" class="img-rounded">
               </a>
             </div>
             <div class="col-md-9 col-xs-12 col-sm12 col-lg-9">
@@ -170,7 +170,7 @@ layout: default
               </div>
             </div>
           </div>
-      {% if loopindex == 0 %}
+      {% if loopindex == 0 or forloop.last %}
         </div>
       {% endif %}
     {% endfor %}
@@ -184,7 +184,7 @@ layout: default
       {% endif %}
           <div class="col-md-6 col-xs-12 col-sm-12 col-lg-6">
             <div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-              <img src="{{ site.url }}/{{ d.src }}" class="img-rounded">
+              <img src="{{ d.src }}" class="img-rounded">
             </div>
             <div class="col-md-9 col-xs-12 col-sm-12 col-lg-9">
               <div class="second-heading">
@@ -193,13 +193,13 @@ layout: default
               <p class="time-content">{{ d.time-content }}</p>
             </div>
           </div>
-      {% if loopindex == 0 %}
+      {% if loopindex == 0 or forloop.last %}
         </div>
       {% endif %}
     {% endfor %}
   </div>
 </div>
-<div class="selected" id="selected">
+<div class="content" id="selected">
   <div class="page-header">
     <h1>Selected Publications</h1>
   </div>
@@ -208,7 +208,7 @@ layout: default
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-            <img src="{{ site.url }}/{{ d.src }}" class="img-rounded">
+            <img src="{{ d.src }}" class="img-rounded">
           </div>
           <div class="col-md-9 col-xs-12 col-sm-12 col-lg-9">
             <div class="second-heading">
