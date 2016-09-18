@@ -1,10 +1,10 @@
-- src: "http://www.seas.upenn.edu/~pcozzi/images/GPUPro7.jpg"
+- src: "img/GPUPro7.jpg"
   alt: ""
   media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 7</a>.  CRC Press.<a href=\"http://davidkotfis.wix.com/aboutme\">Wolfgang Engel</a>, Editor"
   second-heading: "<em>Octree Mapping from a Depth Camera</em>Dave Kotfis and Patrick Cozzi"
   time-content: "Expected 03/2016"
 
-- src: "http://www.seas.upenn.edu/~pcozzi/images/GPUPro5.jpg"
+- src: "img/GPUPro5.jpg"
   alt: ""
   media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 5</a>.  CRC Press. Wolfgang Engel, Editor"
   second-heading: 
@@ -15,7 +15,7 @@
     and Patrick Cozzi"
   time-content: "05/2014"
     
-- src: "http://www.seas.upenn.edu/~pcozzi/images/GPUPro4.jpg"
+- src: "img/GPUPro4.jpg"
   alt: ""
   media-heading:
     "<a href=\"http://www.openglinsights.com\">OpenGL Insights</a>.  CRC Press.
@@ -25,7 +25,7 @@
     Patrick Cozzi and Scott Hunter"
   time-content: "07/2012"
 
-- src: "http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1439893764&MarketPlace=US&ID=AsinImage&WS=1&tag=virtua06a-20&ServiceVersion=20070822"
+- src: "img/IX7QvQ3q4R5kArhJWmO8oLmE8F7b59QGJuUlaLjN.jpg"
   alt: ""
   media-heading:
     "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 4</a>.  CRC Press.
@@ -35,7 +35,7 @@
     Patrick Cozzi and Daniel Bagnell"
   time-content: "04/2013"
     
-- src: "http://www.seas.upenn.edu/~pcozzi/images/geg2.png"
+- src: "img/geg2.png"
   alt: ""
   media-heading:
     "<a href=\"http://www.gameenginegems.net/\">Game Engine Gems 2</a>.  A K Peters/CRC Press.

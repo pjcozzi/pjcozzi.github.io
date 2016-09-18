@@ -1,18 +1,18 @@
-- src: 'http://www.seas.upenn.edu/~pcozzi/images/PolylinesOnTerrain.png" alt="A Screen-Space Approach to Rendering Polylines on Terrain'
+- src: 'img/PolylinesOnTerrain.png" alt="A Screen-Space Approach to Rendering Polylines on Terrain'
   second-heading:
     '<a href="http://blogs.agi.com/agi/?p=2456">A Screen-Space Approach to Rendering Polylines on Terrain</a>.  
     <a href="http://www.siggraph.org/s2011/for_attendees/posters">SIGGRAPH 2011 Poster Session</a>.
     Deron Ohlarik and Patrick Cozzi'
   time-content: '08/2011'
     
-- src: 'http://www.seas.upenn.edu/~pcozzi/images/GPURayCastingOfVirtualGlobes.png" alt="GPU Ray Casting of Virtual Globes'
+- src: 'img/GPURayCastingOfVirtualGlobes.png" alt="GPU Ray Casting of Virtual Globes'
   second-heading:
     '<a href="http://www.agi.com/gpuraycastingofvirtualglobes">GPU Ray Casting of Virtual Globes</a>.  
     <a href="http://www.siggraph.org/s2010/for_attendees/posters/complete_list_posters">SIGGRAPH 2010 Poster Session</a>.
     Patrick Cozzi and Frank Stoner'
   time-content: '07/2010'
     
-- src: 'http://www.seas.upenn.edu/~pcozzi/images/HLOD.png" alt="Visibility Driven Out-of-Core HLOD Rendering'
+- src: 'img/HLOD.png" alt="Visibility Driven Out-of-Core HLOD Rendering'
   second-heading:
     '<a href="http://blogs.agi.com/insight3d/index.php/2009/02/19/out-of-core-rendering/">Visibility Driven Out-of-Core HLOD Rendering</a>.  Masters Thesis.
     Patrick Cozzi, Thesis Advisor: <a href="http://www.cis.upenn.edu/~badler/">Dr. Norman Badler</a>'
