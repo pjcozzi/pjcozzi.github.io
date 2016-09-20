@@ -58,11 +58,20 @@ maintain two sites. Click this link for details: [Using a custom domain with Git
 
 ## Update
 
+### Content
+
 Content data are all in `_data` folder. You can find a `.yml` file for each section. 
 
 Simply copy paste and modify will add a new item to that section. 
 
 You can find what elements each attributes refer to in the image below. 
+
+### Image
+
+You can put images are in `img` folder. They will be automatically copied to `_site` when built. 
+
+Also feel free to use external link for your images.
+
 
 And don't forget to build your sites after any updates.  
 
