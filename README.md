@@ -85,4 +85,5 @@ You can find what elements each attributes refer to in the image below.
 ![TODO:selected-blog-post](img/instructions/selected-blog-posts.jpg)
 
 - `projects.html`
+
 ![](img/instructions/projects.jpg)
