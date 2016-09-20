@@ -58,6 +58,14 @@ maintain two sites. Click this link for details: [Using a custom domain with Git
 
 ## Update
 
+Don't forget to build your sites after any updates. 
+
+### Image
+
+You can put images are in `img` folder. They will be automatically copied to `_site` when built. 
+
+Also feel free to use external link for your images.
+
 ### Content
 
 Content data are all in `_data` folder. You can find a `.yml` file for each section. 
@@ -66,13 +74,15 @@ Simply copy paste and modify will add a new item to that section.
 
 You can find what elements each attributes refer to in the image below. 
 
-### Image
+- `index.html`
 
-You can put images are in `img` folder. They will be automatically copied to `_site` when built. 
+![](img/instructions/aboutme-img.jpg)
+![](img/instructions/editor-books.jpg)
+![](img/instructions/book-chapters.jpg)
+![](img/instructions/teaching-course.jpg)
+![](img/instructions/short-courses.jpg)
+![](img/instructions/selected-publications.jpg)
+![TODO:selected-blog-post](img/instructions/selected-blog-posts.jpg)
 
-Also feel free to use external link for your images.
-
-
-And don't forget to build your sites after any updates.  
-
-![readme](img/readme.png)
+- `projects.html`
+![](img/instructions/projects.jpg)
