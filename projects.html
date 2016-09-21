@@ -2,13 +2,12 @@
 layout: projects
 ---
 <div class="content" id="projects">
-  <div class="page-header">
-    <h1>Projects</h1>
-  </div>
   <article class="post">
     <div class="post-content">
       <div class="content" id="independent">
-        <h3>Independent Study Projects</h3>
+        <div class="page-header">
+          <h2>Independent Study Projects</h2>
+        </div>
         <p align="center">
           <img src="img/glTF_300.png" height="76" class="borderImage">
           <img src="img/WebGL_170px_Nov14.png" height="76" class="borderImage">
@@ -28,9 +27,18 @@ layout: projects
         <p>Please email me to learn more. I can only advise a limited number of students per semester.</p>
       </div>
       <div class="content" id="past">
-        <h3>Past Projects</h3>
+        <div class="page-header">
+          <h2>Past Projects</h2>
+        </div>
         {% for d in site.data.projects %}
-          <h4>{{ d.title }}</h4>
+          {{ d.content }}
+        {% endfor %}
+      </div>
+      <div class="content" id="code">
+        <div class="page-header">
+          <h2>Code Sprints</h2>
+        </div>
+        {% for d in site.data.code-sprints %}
           {{ d.content }}
         {% endfor %}
       </div>

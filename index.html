@@ -2,23 +2,28 @@
 layout: default
 ---
 <div class="banner">
-  <p style="margin-top:200px;">
-    <a href="mailto:pjcozzi@siggraph.org?subject=feedback">pjcozzi@siggraph.org</a>
-  </p>
-  <p>
-    Principal Graphics Architect <br>
-    <a href="http://www.agi.com/">Analytical Graphics, Inc.</a>
-  </p>
-  <p>
-    Lecturer <br>
-    <a href="http://www.cis.upenn.edu/">
-      Department of Computer and Information Science
-    </a>
-    <br>
-    <a href="http://www.upenn.edu/">University of Pennsylvania</a>
-  </p>
-  <p>Short <a href="http://www.seas.upenn.edu/~pcozzi/downloads/PatrickCozziCV.pdf">CV</a> (08/2016)</p>
-  <p class="links">With former students, <a href="http://www.iamnop.com/" title="">Nop Jiarathanakul</a> and <a href="http://www.yiningkarlli.com/" title="">Karl Li</a>.</p>
+  <div class="col-md-6">
+    <p>
+      <a href="mailto:pjcozzi@siggraph.org?subject=feedback">pjcozzi@siggraph.org</a>
+    </p>
+    <p>
+      Principal Graphics Architect <br>
+      <a href="http://www.agi.com/">Analytical Graphics, Inc.</a>
+    </p>
+    <p>
+      Lecturer <br>
+      <a href="http://www.cis.upenn.edu/">
+        Department of Computer and Information Science
+      </a>
+      <br>
+      <a href="http://www.upenn.edu/">University of Pennsylvania</a>
+    </p>
+    <p>Short <a href="http://www.seas.upenn.edu/~pcozzi/downloads/PatrickCozziCV.pdf">CV</a> (08/2016)</p>
+    <p>With former students, <a href="http://www.iamnop.com/" title="">Nop Jiarathanakul</a> and <a href="http://www.yiningkarlli.com/" title="">Karl Li</a>.</p>
+  </div>
+  <div class="col-md-6">
+    <img src="../img/9631b1bbgw1f81a8sia6wj21kw1e7jyw.jpg" alt="">
+  </div>
 </div>
 <div class="content" id="about">
   <div class="page-header">
@@ -60,7 +65,6 @@ layout: default
   <div class="page-header">
     <h1>Books</h1>
   </div>
-  <h3>My editors books：</h3>
   <div class="media-list">
     {% for d in site.data.editor-books %}
       {% assign loopindex = forloop.index | modulo: 2 %}
@@ -134,7 +138,6 @@ layout: default
   <div class="page-header">
     <h1>Teaching</h1>
   </div>
-  <h3>Teaching Courses：</h3>
   <div class="media-list">
     {% for d in site.data.teaching-course %}
       {% assign loopindex = forloop.index | modulo: 2 %}
@@ -161,7 +164,11 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
-  <h3>Selected Talks and Short Courses：</h3>
+</div>
+<div class="content" id="talks">
+  <div class="page-header">
+    <h1>Selected Talks and Short Courses</h1>
+  </div>
   <div class="media-list">
     {% for d in site.data.short-courses %}
       {% assign loopindex = forloop.index | modulo: 2 %}
@@ -185,7 +192,7 @@ layout: default
     {% endfor %}
   </div>
 </div>
-<div class="content" id="selected">
+<div class="content" id="publications">
   <div class="page-header">
     <h1>Selected Publications</h1>
   </div>
@@ -206,26 +213,17 @@ layout: default
       </div>
     {% endfor %}
   </div>
+</div>
+<div class="content" id="blogs">
   <div class="page-header">
     <h1>Selected Blog Posts</h1>
   </div>
   <p>
-    <a href="https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Documentation/Contributors/PresentersGuide">Cesium Presenter's Guide</a> • Graphics Tech in Cesium:
-    <a href="http://cesiumjs.org/2015/05/14/Graphics-Tech-in-Cesium/">Rendering a Frame</a>,
-    <a href="http://cesiumjs.org/2015/05/15/Graphics-Tech-in-Cesium-Architecture/">Renderer Architecture</a>, and
-    <a href="http://cesiumjs.org/2015/05/26/Graphics-Tech-in-Cesium-Stack/">The Graphics Stack</a> •
-    <a href="https://github.com/pjcozzi/Articles/blob/master/CIS565/GitHubRepo/README.md">How to make an attractive GitHub repo</a> •
-    <a href="https://hacks.mozilla.org/2014/01/webgl-deferred-shading/">WebGL Deferred Shading</a> •
-    <a href="http://cesiumjs.org/2013/12/23/Building-A-WebGL-Santa-with-Cesium-and-glTF/">Building a WebGL Santa with Cesium and glTF</a> •
-    <a href="http://www.realtimerendering.com/blog/webgl-debugging-and-profiling-tools/">WebGL Debugging and Profiling Tools</a> •
-    <a href="http://cesiumjs.org/2013/10/08/GitHub-Pull-Request-Workflows/">GitHub Pull Request Workflows</a> •
-    Reflections on Teaching GPU Programming and Architecture: <a href="http://blog.virtualglobebook.com/2011/05/reflections-on-teaching-gpu-programming.html">Part I</a>, <a href="http://blog.virtualglobebook.com/2012/07/reflections-on-teaching-gpu-programming.html">Part II</a>, and <a href="http://blog.virtualglobebook.com/2013/04/reflections-on-teaching-gpu-programming.html">Part III</a> •
-    <a href="http://cesiumjs.org/2012/11/30/NORAD-Tracks-Santa-Tech-Preview/">NORAD Tracks Santa Tech Preview</a>
-    • <a href="http://cesiumjs.org/2012/11/14/Open-Source-Development-Practices/">Open Source Development Practices</a> •
-    <a href="http://blog.virtualglobebook.com/2013/04/how-developers-can-get-into-teaching.html">How developers can get into teaching</a> •
-    <a href="http://blog.virtualglobebook.com/2011/06/resume-tips-for-computer-science.html">Resume Tips for Computer Science Students</a> •
-    <a href="http://blogs.agi.com/insight3d/index.php/2008/08/29/rendering-text-fast/">Rendering Text Fast</a> •
-    <a href="http://blogs.agi.com/insight3d/index.php/2008/03/05/picking-using-the-depth-buffer/">Picking using the Depth Buffer</a> •
-    <a href="http://blogs.agi.com/insight3d/index.php/2008/02/13/deletion-in-bounding-volume-hierarchies/">Deletion in Bounding Volume Hierarchies</a>
+    {% for d in site.data.blogs %}
+      {{ d.content }}
+      {% unless forloop.last %}
+        •
+      {% endunless %}
+    {% endfor %}
   </p>
 </div>
