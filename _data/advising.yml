@@ -1,19 +1,19 @@
-- src: "img/WebGL_170px_Nov14.png" 
+- src: "img/advising/webgl.png" 
   alt: ""
   desc: "Spring 2016:  <a href=\"https://github.com/WebGLSamples/WebGL2Samples\">WebGL 2 Samples Pack</a> by <a href=\"https://shrekshao.github.io/\">Shuai Shao (Shrek)</a> and <a href=\"http://www.trungtuanle.com/\">Trung Le</a>."
 
-- src: "img/glTF_300.png" 
+- src: "img/advising/glTF_300.png" 
   alt: ""
   desc: "Spring 2016:  <a href=\"https://github.com/AnalyticalGraphicsInc/gltf-pipeline\">glTF Pipeline</a> by <a href=\"http://leerichard.net/\">Richard Lee</a>."
 
-- src: "img/ibl.png"
+- src: "img/advising/ibl.png"
   alt: ""
   desc: "Spring 2015:  <a href=\"https://chengtsolin.wordpress.com/\">Image-Based Lighting</a> by <a href=\"https://otaku690.appspot.com/\">Cheng-Tso Lin</a>."
 
-- src: "img/octreeslam.png"
+- src: "img/advising/octreeslam.png"
   alt: ""
   desc: "Spring 2015:  <a href=\"http://octreeslam.blogspot.com/\">Voxel Map Construction and Rendering</a> by <a href=\"http://davidkotfis.wix.com/aboutme\">Dave Kotfis</a>."
 
-- src: "img/VoxelConeTracing.png"
+- src: "img/advising/VoxelConeTracing.png"
   alt: ""
   desc: "Fall 2012:  <a href=\"http://realtimevoxels.blogspot.com/\">Real-Time Voxels</a> by <a href=\"http://lilleyse.carbonmade.com/\">Sean Lilley</a>, <a href=\"http://ianlilley.wordpress.com/\">Ian Lilley</a>, and <a href=\"http://iamnop.com/\">Nop Jiarathanakul</a>."
