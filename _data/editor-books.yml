@@ -1,18 +1,18 @@
 - src: "img/books/WebGLInsights.jpg"
   alt: ""
-  media-heading: "<a href=\"http://www.webglinsights.com\" title=\"WebGL Insights\">WebGL Insights</a>.<a href=\"http://www.crcpress.com/\" title=\"CRC Press\">CRC Press</a>."
+  media-heading: "<a href=\"http://www.webglinsights.com\" title=\"WebGL Insights\">WebGL Insights</a><br><a href=\"http://www.crcpress.com/\" title=\"CRC Press\">CRC Press</a>"
   second-heading: "Patrick Cozzi, Editor"
   time-content: "CRC Press   07/2015"
 
 - src: "img/books/openglinsights.jpg"
   alt: ""
-  media-heading: "<a href=\"http://www.openglinsights.com\">OpenGL Insights</a>.  CRC Press."
+  media-heading: "<a href=\"http://www.openglinsights.com\">OpenGL Insights</a><br>  CRC Press."
   second-heading: "Patrick Cozzi and <a href=\"http://www.g-truc.net\">Christophe Riccio</a>, Editors"
   time-content: "07/2012"
 
 - src: "img/books/virtualglobebook.jpg"
   alt: "3D Engine Design for Virtual Globes"
-  media-heading: "<a href=\"http://www.virtualglobebook.com\">3D Engine Design for Virtual Globes</a>.  A K Peters/CRC Press."
+  media-heading: "<a href=\"http://www.virtualglobebook.com\">3D Engine Design for Virtual Globes</a><br>  A K Peters/CRC Press."
   second-heading: "Patrick Cozzi and <a href=\"http://www.kotachrome.com/kevin/\">Kevin Ring</a>"
   time-content: "06/2011"
     

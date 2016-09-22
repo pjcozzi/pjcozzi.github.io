@@ -1,12 +1,12 @@
 - src: "img/chapters/GPUPro7.jpg"
   alt: ""
-  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 7</a>.  CRC Press.<a href=\"http://davidkotfis.wix.com/aboutme\">Wolfgang Engel</a>, Editor"
+  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 7</a><br>  CRC Press.<a href=\"http://davidkotfis.wix.com/aboutme\">Wolfgang Engel</a>, Editor"
   second-heading: "<em>Octree Mapping from a Depth Camera</em>Dave Kotfis and Patrick Cozzi"
   time-content: "Expected 03/2016"
 
 - src: "img/chapters/GPUPro5.jpg"
   alt: ""
-  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 5</a>.  CRC Press. Wolfgang Engel, Editor"
+  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 5</a><br>  CRC Press. Wolfgang Engel, Editor"
   second-heading: 
     "<em>glTF: Designing an Open-Standard Runtime Asset Format</em>
     <a href=\"http://www.linkedin.com/pub/fabrice-robinet/0/178/783\">Fabrice Robinet</a>, 
@@ -18,7 +18,7 @@
 - src: "img/chapters/openglinsights.jpg"
   alt: ""
   media-heading:
-    "<a href=\"http://www.openglinsights.com\">OpenGL Insights</a>.  CRC Press.
+    "<a href=\"http://www.openglinsights.com\">OpenGL Insights</a><br>  CRC Press.
     Patrick Cozzi and <a href=\"http://www.g-truc.net\">Christophe Riccio</a>, Editors"
   second-heading: 
     "<em>WebGL for OpenGL Developers</em> <br>
@@ -28,7 +28,7 @@
 - src: "img/chapters/GPUPro4.jpg"
   alt: ""
   media-heading:
-    "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 4</a>.  CRC Press.
+    "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 4</a><br>  CRC Press.
     Wolfgang Engel, Editor"
   second-heading:
     "<em>A WebGL Globe Rendering Pipeline</em>
@@ -38,7 +38,7 @@
 - src: "img/chapters/geg2.png"
   alt: ""
   media-heading:
-    "<a href=\"http://www.gameenginegems.net/\">Game Engine Gems 2</a>.  A K Peters/CRC Press.
+    "<a href=\"http://www.gameenginegems.net/\">Game Engine Gems 2</a><br>  A K Peters/CRC Press.
     <a href=\"http://www.terathon.com/lengyel/\">Eric Lengyel</a>, Series Editor"
   second-heading:
     "<em>Delaying OpenGL Calls</em>
