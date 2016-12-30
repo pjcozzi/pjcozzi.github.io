@@ -14,7 +14,11 @@ Basically:
 * NodeJS
 * Python 2.7
 
-Follow [Jekyll Installation Instructions](https://jekyllrb.com/docs/installation/).  
+Follow [Jekyll Installation Instructions](https://jekyllrb.com/docs/installation/), then run
+
+```
+gem install bundler
+```
 
 After `Jekyll` is properly installed, `cd` to this project root, and do
 
