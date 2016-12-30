@@ -1,35 +1,26 @@
 - href: "http://cesiumjs.org/"
   src: "img/aboutme/Cesium.png" 
-  alt: "Cesium"
 
 - href: "https://github.com/AnalyticalGraphicsInc/3d-tiles"
   src: "img/aboutme/3dtiles.png" 
-  alt: "3D Tiles"
 
 - href: "#books"
   src: "img/aboutme/webglinsights.jpg" 
-  alt: "WebGL Insights"
 
 - href: "#books"
   src: "img/aboutme/openglinsights.jpg" 
-  alt: "OpenGL Insights"
 
 - href: "#books"
   src: "img/aboutme/3denginedesign.jpg" 
-  alt: "3D Engine Design for Virtual Globes"
 
 - href: "http://www.agi.com/"
   src: "img/aboutme/agi.jpg" 
-  alt: "AGI"
 
 - href: "#teaching"
   src: "img/aboutme/Penn.png" 
-  alt: "Teaching"
 
 - href: "http://www.khronos.org/"
   src: "img/aboutme/khronos.png" 
-  alt: "Khronos"
 
 - href: "https://github.com/KhronosGroup/glTF"
   src: "img/aboutme/glTF.png" 
-  alt: "glTF"

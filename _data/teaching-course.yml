@@ -1,67 +1,36 @@
-- href: '/'
+- href: 'http://cis565-fall-2016.github.io/'
+  src: 'img/teaching/CIS565Fall2016.jpg'
+  media-heading: 'Fall 2016:  <a href="http://cis565-fall-2016.github.io/">CIS 565:  GPU Programming and Architecture</a>'
+
+- href: 'http://cis565-fall-2015.github.io/'
   src: 'img/teaching/CIS565Fall2015.jpg'
   media-heading: 'Fall 2015:  <a href="http://cis565-fall-2015.github.io/">CIS 565:  GPU Programming and Architecture</a>'
-  second-heading: 
-    '<a href="https://github.com/bcrusco/Forward-Plus-Renderer" title="">
-      <span class="smallFont">OpenGL Forward Plus Renderer</span>
-      <span class="mediumFont">Bradley Crusco and Megan Moore</span>
-    </a>'
 
 - href: 'https://github.com/kainino0x/cis565final'
   src: 'img/teaching/CIS565Fall2014.png'
   media-heading: 'Fall 2014:  <a href="http://cis565-fall-2014.github.io/">CIS 565:  GPU Programming and Architecture</a>'
-  second-heading:
-    '<a href="https://github.com/kainino0x/cis565final">
-      <span class="smallFont">WebCL Dynamic Fractures</span><br>
-      <span class="mediumFont">Kai Ninomiya and Jiatong He</span>
-    </a>'
-    
+
 - href: 'https://docs.google.com/presentation/d/1JbPvI1NS7ExcDAGiAbU6cjhfUQzfhptHNNa48eK97oo/edit#slide=id.p'
   src: 'img/teaching/CIS700Spring2014.png'
   media-heading:
     'Spring 2014:  <a href="http://cis700-003-spring-2014.github.io/">CIS 700/003: Real-Time Rendering</a>'
-  second-heading:
-    '<a href="https://docs.google.com/presentation/d/1JbPvI1NS7ExcDAGiAbU6cjhfUQzfhptHNNa48eK97oo/edit#slide=id.p" title="">
-      <span class="smallFont">WebGL Particle Fluid Sim</span>
-      <span class="mediumFont">Alex Miller and Noah Lyons</span>
-    </a>'
- 
+
 - href: 'https://github.com/ishaan13/PhotonMapper'
   src: 'img/teaching/CIS565Fall2013.png" class="img-rounded'
   media-heading:
     'Fall 2013:  <a href="http://cis565-fall-2013.github.io/">CIS 565:  GPU Programming and Architecture</a>'
-  second-heading:
-    '<a href="https://github.com/ishaan13/PhotonMapper" title="">
-      <span class="smallFont">GPU Photon Mapper</span><br>
-      <span class="mediumFont">Ishaan Singh, Yingting Xiao, Xiaoyan Zhu</span>
-    </a>'
 
 - href: 'http://gputerrain.blogspot.com/'
   src: 'img/teaching/CIS565Fall2012.png" class="img-rounded'
   media-heading: 
     'Fall 2012:  <a href="http://cis565-fall-2012.github.com/">CIS 565:  GPU Programming and Architecture</a>'
-  second-heading:
-    '<a href="http://gputerrain.blogspot.com/" title="">
-      <span class="smallFont">Procedural Terrain</span><br>
-      <span class="mediumFont">Tiju Thomas</span>
-    </a>'
- 
+
 - href: 'http://nopjia.blogspot.com/'
   src: 'img/teaching/CIS565Spring2012.png" class="img-rounded'
   media-heading: 
     'Spring 2012:  <a href="http://cis565-spring-2012.github.com/">CIS 565:  GPU Programming and Architecture</a>'
-  second-heading:
-    '<a href="http://nopjia.blogspot.com/">
-      <span class="smallFont">Ray Marching Distance Fields</span><br>
-      <span class="mediumFont">Nop Jiarathanakul</span>
-    </a>'
 
 - href: 'http://fastfluids.blogspot.com/'
   src: 'img/teaching/CIS565Spring2011.png" class="img-rounded'
   media-heading: 
     'Spring 2011:  <a href="http://www.seas.upenn.edu/~cis565/index-2011S.htm">CIS 565:  GPU Programming and Architecture</a>'
-  second-heading:
-    '<a href="http://fastfluids.blogspot.com/" title="">
-      <span class="smallFont">Screen Space Fluid Rendering</span><br>
-      <span class="mediumFont">Leftheris Kaleas</span>
-    </a>'

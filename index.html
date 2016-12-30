@@ -4,7 +4,10 @@ layout: default
 <div class="banner">
   <div class="col-md-6">
     <p>
-      <a href="mailto:pjcozzi@siggraph.org?subject=feedback">pjcozzi@siggraph.org</a>
+      <h1>Patrick Cozzi</h1>
+    </p>
+    <p>
+      <a href="mailto:pjcozzi@siggraph.org">pjcozzi@siggraph.org</a>
     </p>
     <p>
       Principal Graphics Architect <br>
@@ -19,10 +22,11 @@ layout: default
       <a href="http://www.upenn.edu/">University of Pennsylvania</a>
     </p>
     <p>Short <a href="downloads/PatrickCozziCV.pdf">CV</a> (01/2017)</p>
-    <p>With former students, <a href="http://www.iamnop.com/" title="">Nop Jiarathanakul</a> and <a href="http://www.yiningkarlli.com/" title="">Karl Li</a>.</p>
+    <p><a href="http://cg.cis.upenn.edu/">Compute Graphics @ Penn</a></p>
   </div>
   <div class="col-md-6">
-    <img src="../img/cozzi-small.jpg" alt="">
+    <img src="../img/cozzi-small.jpg"><br />
+    <p>With former students, <a href="http://www.iamnop.com/">Nop Jiarathanakul</a> and <a href="http://www.yiningkarlli.com/">Karl Li</a>.</p>
   </div>
 </div>
 <div class="content" id="about">
@@ -34,21 +38,21 @@ layout: default
       <p>
         {% for d in site.data.aboutme-img %}
           <a href="{{ d.href }}">
-            <img src="{{ d.src }}" alt="{{ d.alt }}" width="10%" class="borderImage">
+            <img src="{{ d.src }}" height="90" class="borderImage">
           </a>
         {% endfor %}
       </p>
       <p>I work at the intersection of computer graphics, geospatial, and the web in software development and education.</p>
-      <p>DMD and CGGT students - I am seeking students for <a href="projects.html">independent study projects in Spring 2017</a>.</p>
+      <p>DMD and CGGT students - I am seeking students for <a href="projects.html">independent study projects in Summer or Fall 2017</a>.</p>
       <h4 id="my-contributions-to-the-field-include">My contributions to the field include</h4>
       <ul>
         <li>Starting <a href="http://cesiumjs.org/">Cesium</a>, an open-source JavaScript library for world-class 3D globes and maps</li>
-        <li>Writing and editing <a href="http://www.seas.upenn.edu/~pcozzi/#books">books</a>: WebGL Insights, OpenGL Insights, and 3D Engine Design for Virtual Globes</li>
+        <li>Writing and editing <a href="#books">books</a>: WebGL Insights, OpenGL Insights, and 3D Engine Design for Virtual Globes</li>
         <li>Co-creating <a href="https://github.com/KhronosGroup/glTF">glTF</a>, the runtime asset format for WebGL, OpenGL ES, and OpenGL</li>
         <li>Starting <a href="https://github.com/AnalyticalGraphicsInc/3d-tiles">3D Tiles</a> for streaming massive heterogeneous 3D geospatial datasets (in progress)</li>
-        <li>Teaching <a href="http://www.seas.upenn.edu/~pcozzi/#teaching">GPU Programming and Architecture</a>, with students that received positions at NVIDIA, AMD, Qualcomm, and various game and movie studios</li>
-        <li>Giving <a href="http://www.seas.upenn.edu/~pcozzi/#presentations">talks</a> at SIGGRAPH, FOSS4G, and COM.Geo, and other conferences</li>
-        <li>Writing <a href="http://www.seas.upenn.edu/~pcozzi/#bookchapters">chapters</a> for the GPU Pro and Game Engine Gems series</li>
+        <li>Teaching <a href="#teaching">GPU Programming and Architecture</a>, with students that received positions at NVIDIA, AMD, Qualcomm, and various game and movie studios</li>
+        <li>Giving <a href="#presentations">talks</a> at SIGGRAPH, FOSS4G, and COM.Geo, and other conferences</li>
+        <li>Writing <a href="#bookchapters">chapters</a> for the GPU Pro and Game Engine Gems series</li>
         <li>Reviewing various graphics courses, books, and publications. I’m on the editorial board for the Journal of Computer Graphics Techniques <a href="http://jcgt.org/">(JCGT)</a></li>
       </ul>
       <h4 id="my-interests-include">My interests include</h4>
@@ -154,9 +158,6 @@ layout: default
               <div class="media-heading">
                 {{ d.media-heading }}
               </div>
-              <div class="second-heading">
-                {{ d.second-heading }}
-              </div>
             </div>
           </div>
       {% if loopindex == 0 or forloop.last %}
@@ -205,7 +206,8 @@ layout: default
           </div>
           <div class="col-md-9 col-xs-12 col-sm-12 col-lg-9">
             <div class="second-heading">
-              {{ d.second-heading }}
+              {{ d.second-heading }}<br />
+              {{ d.authors }}
             </div>
             <p class="time-content">{{ d.time-content }}</p>
           </div>

@@ -1,14 +1,14 @@
 - src: "img/chapters/GPUPro7.jpg"
   alt: ""
-  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 7</a><br>  CRC Press <a href=\"http://davidkotfis.wix.com/aboutme\">Wolfgang Engel</a>, Editor"
-  second-heading: "<em>Octree Mapping from a Depth Camera</em>Dave Kotfis and Patrick Cozzi"
-  time-content: "Expected 03/2016"
+  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 7</a><br>  CRC Press<br /><a href=\"http://davidkotfis.wix.com/aboutme\">Wolfgang Engel</a>, Editor"
+  second-heading: "<em>Octree Mapping from a Depth Camera</em><br/>Dave Kotfis and Patrick Cozzi"
+  time-content: "03/2016"
 
 - src: "img/chapters/GPUPro5.jpg"
   alt: ""
-  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 5</a><br>  CRC Press  Wolfgang Engel, Editor"
+  media-heading: "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 5</a><br/>  CRC Press<br />Wolfgang Engel, Editor"
   second-heading: 
-    "<em>glTF: Designing an Open-Standard Runtime Asset Format</em>
+    "<em>glTF: Designing an Open-Standard Runtime Asset Format</em><br/>
     <a href=\"http://www.linkedin.com/pub/fabrice-robinet/0/178/783\">Fabrice Robinet</a>, 
     <a href=\"https://twitter.com/remi_arnaud\">Remi Arnaud</a>, 
     <a href=\"http://tonyparisi.wordpress.com/\">Tony Parisi</a>, 
@@ -18,30 +18,30 @@
 - src: "img/chapters/openglinsights.jpg"
   alt: ""
   media-heading:
-    "<a href=\"http://www.openglinsights.com\">OpenGL Insights</a><br>  CRC Press Patrick Cozzi and <a href=\"http://www.g-truc.net\">Christophe Riccio</a>, Editors"
+    "<a href=\"http://www.openglinsights.com\">OpenGL Insights</a><br/>  CRC Press<br />Patrick Cozzi and <a href=\"http://www.g-truc.net\">Christophe Riccio</a>, Editors"
   second-heading: 
-    "<em>WebGL for OpenGL Developers</em> <br>
+    "<em>WebGL for OpenGL Developers</em> <br/>
     Patrick Cozzi and Scott Hunter"
   time-content: "07/2012"
 
 - src: "img/chapters/GPUPro4.jpg"
   alt: ""
   media-heading:
-    "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 4</a><br>  CRC Press
+    "<a href=\"http://gpupro.blogspot.com/\">GPU Pro 4</a><br/>  CRC Press<br />
     Wolfgang Engel, Editor"
   second-heading:
-    "<em>A WebGL Globe Rendering Pipeline</em>
+    "<em>A WebGL Globe Rendering Pipeline</em><br/>
     Patrick Cozzi and Daniel Bagnell"
   time-content: "04/2013"
     
 - src: "img/chapters/geg2.png"
   alt: ""
   media-heading:
-    "<a href=\"http://www.gameenginegems.net/\">Game Engine Gems 2</a><br>  A K Peters/CRC Press
+    "<a href=\"http://www.gameenginegems.net/\">Game Engine Gems 2</a><br/>  A K Peters/CRC Press<br />
     <a href=\"http://www.terathon.com/lengyel/\">Eric Lengyel</a>, Series Editor"
   second-heading:
-    "<em>Delaying OpenGL Calls</em>
-    Patrick Cozzi
-    <em>A Framework for GLSL Engine Uniforms</em>
+    "<em>Delaying OpenGL Calls</em><br/>
+    Patrick Cozzi<br/>
+    <em>A Framework for GLSL Engine Uniforms</em><br/>
     Patrick Cozzi"
   time-content: "02/2011"
