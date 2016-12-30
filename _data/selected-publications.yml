@@ -1,7 +1,7 @@
 - src: 'img/publications/PolylinesOnTerrain.png" alt="A Screen-Space Approach to Rendering Polylines on Terrain'
   second-heading:
-    '<a href="http://blogs.agi.com/agi/?p=2456">A Screen-Space Approach to Rendering Polylines on Terrain</a>.  
-    <a href="http://www.siggraph.org/s2011/for_attendees/posters">SIGGRAPH 2011 Poster Session</a>.'
+    '<a href="http://blogs.agi.com/agi/2011/04/25/a-screen-space-approach-to-rendering-polylines-on-terrain/">A Screen-Space Approach to Rendering Polylines on Terrain</a>.  
+    <a href="http://www.siggraph.org/s2011/">SIGGRAPH 2011 Poster Session</a>.'
   authors: 'Deron Ohlarik and Patrick Cozzi'
   time-content: '08/2011'
 
