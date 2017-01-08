@@ -43,7 +43,7 @@ $on-laptop:        800px;
     margin-bottom: 10%;
   }
   .banner {
-    min-height: 380px;
+    min-height: 400px;
     p {
       display: none;
     }
@@ -51,7 +51,7 @@ $on-laptop:        800px;
 }
 @media (min-width: 992px) {
   .banner {
-    max-height: 380px;
+    max-height: 400px;
   }
 }
 .banner {
