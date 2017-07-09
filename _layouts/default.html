@@ -9,11 +9,16 @@
   <link rel="stylesheet" href="/css/font-awesome.css">
   <link rel="stylesheet" href="/css/fontawesome-webfont.svg">
   <link rel="stylesheet" href="/css/main.css">
+
+  <script src="js/webcomponentsjs/webcomponents-lite.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.1/webcomponents-lite.js"></script>-->
+  <link rel="import" href="gltf-viewer.html">
 </head>
 <body>
 <div class="container">
   <div class="col-md-2 col-lg-2 side-bar">
     <div class="page-header" style="border-bottom:none;">
+      
       <div class="social-icon">
         <a href="https://github.com/pjcozzi" title="pjcozzi">
           <i class="fa fa-github" aria-hidden="true"></i>
@@ -26,6 +31,9 @@
         </a>
       </div>
     </div>
+    
+    <gltf-viewer class="side-gltf" interactive src="img/models/patrick.gltf" clearcolor="#ffffff" antialias></gltf-viewer>
+
     <div class="side-menu" id="sidemenu">
       <ul class="side-menu-ul">
         <li>

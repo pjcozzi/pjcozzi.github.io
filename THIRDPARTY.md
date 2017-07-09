@@ -17,3 +17,7 @@
 ### [Visual Navigation](https://github.com/Mottie/visualNav)
 
 [MIT License (MIT)](https://opensource.org/licenses/MIT)
+
+### [glTF-viewer](https://github.com/AVGP/gltf-viewer)
+
+[MIT License (MIT)](https://github.com/AVGP/gltf-viewer/blob/master/LICENSE)
