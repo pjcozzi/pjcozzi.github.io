@@ -55,9 +55,11 @@ Displays a 3D representation of a glTF file
             },
             width: Number,
             height: Number,
-            clearColor: {
-              type: String
-            }
+            antialias: {
+              type: Boolean,
+              value: false
+            },
+            clearcolor: String
           };
         }
 
@@ -130,15 +132,15 @@ Displays a 3D representation of a glTF file
           this._scene = new THREE.Scene()
           this._renderer = new THREE.WebGLRenderer({
               canvas,
-              antialias: true
+              antialias: this.antialias
           })
           this._isRunning = false
 
-          if (this.attributes.clearColor) {
-            this._renderer.setClearColor(new THREE.Color(this.attributes.clearColor), 1.0);
+          if (this.clearcolor) {
+            this._renderer.setClearColor(new THREE.Color(this.clearcolor), 1.0);
           }
 
-          // this._scene.add(new THREE.AmbientLight(0x888888));
+          // this._scene.add(new THREE.AmbientLight(0x888888))
           var dl1 = new THREE.DirectionalLight( 0xffffff, 1.0 );
           dl1.position.set( 10, 10, 100 );
           this._scene.add(dl1);
